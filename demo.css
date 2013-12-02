@@ -1,0 +1,59 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	padding: 20px;
+	font: 14px serif;
+	background: #555;
+}
+
+h1,h2 {
+	color: #357;
+	font: bold 24px sans-serif;
+}
+
+h2 {
+	color: #79b;
+	font-size: 18px;
+}
+
+.content {
+	margin: 0 auto;
+	width: 600px;
+	border: 1px solid #999;
+	background: #fff;
+	padding: 10px;
+	color: #000;
+	border-radius: 10px;
+	box-shadow: 3px 3px 10px #000;
+	overflow: auto;
+}
+
+.box {
+	background: #eee;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.longContent {
+	height: 200%;
+	float: left;
+	width: 410px;
+}
+
+.stickyBoxBounds {
+	overflow: auto;
+}
+
+.stickyColumn {
+	float: left;
+	width: 160px;
+	margin-left: 10px;
+}
+
+#stickyBox {
+	width: 140px;
+}
